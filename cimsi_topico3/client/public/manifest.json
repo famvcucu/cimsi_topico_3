@@ -1,0 +1,15 @@
+{
+  "short_name": "PROYECTO CIMSI TOPICO 3",
+  "name": "Implementación de Blockchain con Docker",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#7c7474",
+  "background_color": "#7c7474"
+}

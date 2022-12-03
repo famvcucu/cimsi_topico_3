@@ -1,0 +1,10 @@
+FROM node:14.19.1-alpine
+
+WORKDIR /app
+
+# Instala ganache-cli de forma global
+RUN npm install -g ganache-cli
+
+# Establece el comando ganache-cli -h 0.0.0.0 para el host docker ganache-cli en 0.0.0.0 
+# for docker ganache-cli host on 0.0.0.0
+CMD ["ganache-cli","-h","0.0.0.0"]
